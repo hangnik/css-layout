@@ -1,0 +1,72 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-template-rows: 10vw;
+  grid-auto-rows: 46vh;
+}
+.header {
+    grid-column: 1 / -1;
+    place-self: center center;
+    font-size: 5vw;
+}
+div:nth-child(2) {
+    background-color: #BFBDA7;
+}
+div:nth-child(3) {
+    background-image: url(https://i.pinimg.com/474x/dd/44/8d/dd448db2429af2da4ff99ea2db95aa4e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div:nth-child(4) {
+    background-color: #FE4814;
+}
+div:nth-child(5) {
+    background-image: url(https://i.pinimg.com/474x/09/e2/ba/09e2baf20c7794cb9aafcb499a1c0427.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div:nth-child(6) {
+    background-color: #847E96;
+}
+div:nth-child(7) {
+    background-color: #D0FF71;
+}
+div:nth-child(8) {
+    background-color: #993433;
+}
+div:nth-child(9) {
+    background-color: #3AAAFA;
+}
+div:nth-child(10) {
+    background-image: url(https://i.pinimg.com/474x/32/af/ff/32afffd4f4b35ce885455454b4293c85.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div:nth-child(11) {
+    background-color: #41907A;
+}
+div:nth-child(12) {
+    background-image: url(https://i.pinimg.com/474x/8e/59/43/8e5943153ca4ce1a64acf0c997e48f73.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div:nth-child(13) {
+    background-color: #E3C4E5;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.name {
+    font-size: 0.5rem;
+}
+ 
